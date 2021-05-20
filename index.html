@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login</title>
+    <link rel="stylesheet" href="facebook.css"></style>
+</head>
+<body>
+    <div class="background">
+    <div class="heading">
+        <h2>facebook</h2>   
+    </div>
+    <div class="text">
+        <p><b>Facebook helps you connect and share<br> with the people in your life.</b></p>
+    </div>
+    <div class="form">
+    <form onsubmit= "return validateForm(event)" action="welcome.html">
+    <input type="email" placeholder="Email address or phone number" id="email">
+    <br>
+    <input type="password" placeholder="password" id="password">
+    <br>
+    <button type="submit" id="login">Log In</button>
+    <br>
+    <a href="#" id="forgot">Forgotten Password?</a>
+    <br>
+    <div id="ruler">
+    <hr>
+    </div>
+    <button type="submit" id="new">Create New Account</button>
+</form>
+</div>
+<P class="paragraph"><b>Create a page</b> for a celebrity, band or business</P> 
+<script src="facebook.js"></script>   
+</body>
+</html>
